@@ -1,0 +1,19 @@
+nouns
+
+1.  Player class : -help in initializing a game player(player name)
+    -contains user 1/0
+    -contains player lives (3 by default)
+    variable : @name @life
+    methods : remove_a_life,
+
+2.  question class : class inherited by each question.
+    takes in a user answer and checks if question[:answer] === user_answer
+
+        variables: @answer
+
+    methods : generate_question, check_answer?
+
+3.  game class : contains current_player and game loop
+    -keeps track of player scores (so, it should probably have access to player_lives)
+    variables: @current_player
+    method : start_game, game_over, game_winner, next_turn(updates current_player)
