@@ -17,10 +17,5 @@ end
 player_1= Player.new('john')
 player_2= Player.new('james')
 
-# puts player_2.life
-# puts player_2.lose_life
-# puts player_2.lose_life
-# puts player_2.lose_life
-# puts player_2.lose_life
-# puts player_2.lose_life
-# puts player_2.life
+@players = [player_1, player_2]
+
