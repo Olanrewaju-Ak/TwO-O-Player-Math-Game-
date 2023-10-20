@@ -14,8 +14,6 @@ class Player
 
 end
 
-player_1= Player.new('john')
-player_2= Player.new('james')
 
-@players = [player_1, player_2]
+
 
